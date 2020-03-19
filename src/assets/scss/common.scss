@@ -1,0 +1,17 @@
+.manage {
+  height: 90%;
+  padding-bottom: 20px;
+  overflow: hidden;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .el-dialog {
+    .dialog-footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
